@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "health-1",
+      "title": "Health Supreme",
+      "category": "Health Supreme",
+      "desc": "Analytics & care dashboards",
+      "image": "/images/prodcut1.png"
+    },
+    {
+      "id": "crm-365-1",
+      "title": "CRM 365",
+      "category": "CRM 365",
+      "desc": "Sales pipeline + reporting",
+       "image": "/images/prodcut1.png"
+    },
+    {
+      "id": "osda-1",
+      "title": "OSDA",
+      "category": "OSDA",
+      "desc": "Order & supplier management",
+       "image": "/images/prodcut1.png"
+    },
+    {
+      "id": "market-1",
+      "title": "Marketplace E-Commerce Platform",
+      "category": "Marketplace E-Commerce Platform",
+      "desc": "Multi-vendor storefront",
+       "image": "/images/prodcut1.png"
+    },
+    {
+      "id": "sports-1",
+      "title": "Sports Training App",
+      "category": "Sports Training App",
+      "desc": "Programs, tracking, coaching",
+       "image": "/images/prodcut1.png"
+    },
+    {
+      "id": "fitness-1",
+      "title": "Fitness",
+      "category": "Fitness",
+      "desc": "Workout plans & progress",
+       "image": "/images/prodcut1.png"
+    }
+  ]
+}

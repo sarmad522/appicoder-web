@@ -56,10 +56,10 @@ export default function WhyChooseUs({
       <div className="mx-auto xl:max-w-[1920px] py-10 md:py-25">
         {/* Heading */}
         <div className="text-center mb-8 md:mb-10">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#20222D]">
+          <h2 className="text-[22px] md:text-4xl font-extrabold text-[#20222D]">
             {title}
           </h2>
-          <p className="mt-3 mx-auto max-w-3xl text-sm md:text-base  max-w-[650px] font-bold text-[#20222D]">
+          <p className="mt-3 mx-auto max-w-3xl    text-[12px]  md:text-sm md:text-base  max-w-[650px] font-bold text-[#20222D]">
             {subtitle}
           </p>
         </div>
@@ -91,10 +91,10 @@ export default function WhyChooseUs({
                     {/* Card */}
                     <div
                       className={[
-                        "relative flex flex-col items-center justify-center text-center rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.12)]",
-                        "bg-white w-[280px] h-[280px] sm:w-[300px] sm:h-[300px] md:w-[320px] md:h-[320px]",
+                        "relative flex flex-col items-center justify-center text-center rounded-full ",
+                        "bg-white w-[280px] h-[280px] sm:w-[300px] sm:h-[350px] md:w-[320px] md:h-[320px]",
                         "transition-all duration-300",
-                        isActive ? "scale-[1.03]" : "opacity-60",
+                        isActive ? "scale-[1.0]" : "opacity-60",
                       ].join(" ")}
                     >
                       {/* Icon bubble */}
@@ -118,11 +118,11 @@ export default function WhyChooseUs({
                       </div>
 
                       {/* Text */}
-                      <div className="px-6 pt-12">
-                        <h3 className="text-[#363a40] font-extrabold text-[16px]">
+                      <div className="px-6 pt-5">
+                        <h3 className="text-[#363a40] font-extrabold text-[14px]">
                           {item.title}
                         </h3>
-                        <p className="mt-2 text-[12.5px] leading-5 text-[#6c7177]">
+                        <p className="mt-2 text-[11px] leading-5 text-[#6c7177]">
                           {item.desc}
                         </p>
                       </div>

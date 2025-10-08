@@ -25,15 +25,15 @@ export default function ContactCta({
         <div className="grid grid-cols-1 md:grid-cols-12 gap-0 lg:gap-8">
           {/* LEFT – form */}
           <div className="md:col-span-7 px-0 sm:px-0 py-8 sm:py-10   ">
-            <p className="text-white font-semibold tracking-[.12em] text-sm">
+            <p className="text-white font-semibold tracking-[.12em] text-[12px] text-sm">
               {titleEyebrow}
             </p>
 
-            <h2 className="mt-2 text-white font-bold leading-[1.1] text-[28px] sm:text-[34px] md:text-[30px] lg:text-[35px] ">
+            <h2 className="mt-2 text-white font-bold leading-[1.1] text-[22px] sm:text-[34px] md:text-[30px] lg:text-[35px] ">
               {title}
             </h2>
 
-            <p className="mt-3 text-white max-w-[58ch] text-[15px]">
+            <p className="mt-3 text-white max-w-[58ch] text-[12px] md:text-[14px]">
               {subtitle}
             </p>
 
@@ -88,7 +88,7 @@ export default function ContactCta({
                 </span>
               </div>
 
-              <div className="mt-4 text-[26px] sm:text-[28px] md:text-[22px] lg:text-[30px] font-extrabold tracking-tight">
+              <div className="mt-4 text-[24px] sm:text-[28px] md:text-[22px] lg:text-[30px] font-extrabold tracking-tight">
                 {phone}
               </div>
               <div className="mt-2 text-white/80 text-sm">{email}</div>

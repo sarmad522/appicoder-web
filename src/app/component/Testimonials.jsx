@@ -54,7 +54,7 @@ export default function Testimonials({
 
       {/* Red panel */}
       <div className="relative z-0">
-        <div className="mx-auto  xl:w-[90%] max-w-[1920px] py-10 md:py-25">
+        <div className="mx-auto  xl:w-[90%] max-w-[1920px] py-15 md:py-25">
           <div
             className={`rounded-xl lg:rounded-2xl ${panelColor} shadow-[0_15px_60px_rgba(0,0,0,0.25)] relative`}
           >

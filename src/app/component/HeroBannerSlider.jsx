@@ -64,7 +64,7 @@ export default function HeroBannerSlider({
           {/* LEFT: fixed stacked phones */}
           <div className="order-1 lg:order-1    md:col-span-4 flex items-end lg:pt-10 xl:pt-20 justify-center lg:justify-start relative">
   {/* Back phone */}
-  <div className="relative hidden sm:block  lg:w-full">   {/* 👈 add w-full */}
+  <div className="relative  mt-10 w-[75%]  md:w-full    lg:w-full">   {/* 👈 add w-full */}
     <Image
       src="/images/mobile.png"
       alt="Phone back app preview"

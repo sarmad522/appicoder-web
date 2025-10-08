@@ -61,7 +61,7 @@ export default function ServicesSection() {
           {/* Optional: top diagonal soft shadow */}
 
           {/* Content over bg */}
-          <div className="absolute left-[2%]  bottom-[40%] md:bottom-[30%]   md:left-[2%] xl:left-[5%] z-10 w-[90%]  mx-auto " >
+          <div className="absolute left-[5%]  bottom-[40%] md:bottom-[30%]   md:left-[2%] xl:left-[5%] z-10 w-[90%]  mx-auto " >
             <div className="grid grid-cols-1 gap-8 md:grid-cols-12 lg:gap-10">
               {/* LEFT: Heading + bullets */}
               <div className="md:col-span-8  lg:col-span-8 text-white  flex flex-col  md:justify-end items-start overflow-hidden">
@@ -100,7 +100,7 @@ export default function ServicesSection() {
 
               {/* RIGHT: Illustration */}
               <div className="md:col-span-4  lg:col-span-4 relative mt-4 lg:mt-0">
-                <div className="absolute  top-[-100px] md:top-[0px] md:-right-20   md:ml-auto max-w-[800px]  mx-auto  w-[70%] md:w-[100%] lg:w-[100%]  lg:min-h-[600px]">
+<div className="absolute w-full inset-0 top-[-100px] md:[inset:unset] md:top-0 md:-right-20 md:ml-auto max-w-[800px] mx-auto w-[70%] md:w-full lg:w-full lg:min-h-[600px]">
                   <Image
                     src="/images/compute.png"
                     alt="Services illustration"

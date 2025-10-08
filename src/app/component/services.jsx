@@ -100,7 +100,7 @@ export default function ServicesSection() {
 
               {/* RIGHT: Illustration */}
               <div className="md:col-span-4  lg:col-span-4 relative mt-4 lg:mt-0">
-<div className="absolute w-full inset-0 top-[-100px] md:[inset:unset] md:top-0 md:-right-20 md:ml-auto max-w-[800px] mx-auto w-[70%] md:w-full lg:w-full lg:min-h-[600px]">
+<div className="absolute w-full   md:mt-0 inset-0 top-[-220px] md:[inset:unset] md:top-0 md:-right-20 md:ml-auto max-w-[800px] mx-auto w-[70%] md:w-full lg:w-full lg:min-h-[600px]">
                   <Image
                     src="/images/compute.png"
                     alt="Services illustration"

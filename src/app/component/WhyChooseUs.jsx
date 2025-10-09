@@ -53,7 +53,7 @@ export default function WhyChooseUs({
 
   return (
     <section className="relative bg-[#eef0f2]">
-      <div className="mx-auto xl:max-w-[1920px] py-10 md:py-25">
+      <div className="mx-auto p-2 xl:max-w-[1920px] py-10 md:py-25">
         {/* Heading */}
         <div className="text-center mb-8 md:mb-10">
           <h2 className="text-[22px] md:text-4xl font-extrabold text-[#20222D]">

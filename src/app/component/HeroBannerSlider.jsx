@@ -51,7 +51,7 @@ export default function HeroBannerSlider({
   backImg = "/images/phone-back.png",
 }) {
   return (
-    <section className="relative isolate overflow-hidden  ">
+    <section className="relative isolate overflow-hidden  pb-2 ">
       {/* Big red rounded layer matching the screenshot shape */}
  <div
     className="absolute inset-0 -z-10 bg-no-repeat bg-cover bg-center
@@ -59,7 +59,7 @@ export default function HeroBannerSlider({
     style={{ backgroundImage: "url('/images/bannerimage.png')" }}
   />      <div className="absolute bottom-[-120px] right-[-120px] h-[420px] w-[420px] rounded-full opacity-70 blur-[2px]" />
 
-      <div className="relative mx-auto xl:max-w-[1920px] w-[95%] px-4 sm:px-6 lg:px-8 py-10 md:pt-20 lg:pt-10 xl:py-20">
+      <div className="relative mx-auto xl:max-w-[1920px] w-[95%] px-2 sm:px-6 lg:px-8 py-10 md:pt-20 lg:pt-10 xl:py-20">
         <div className="grid grid-cols-1 md:grid-cols-12 items-center  gap-1 lg:gap-10">
           {/* LEFT: fixed stacked phones */}
           <div className="order-1 lg:order-1    md:col-span-4 flex items-end lg:pt-10 xl:pt-20 justify-center lg:justify-start relative">

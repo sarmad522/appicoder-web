@@ -22,7 +22,7 @@ export default function ContactCta({
   return (
     <section className="relative bg-[#d71920]">
       <div className="mx-auto w-[95%] max-w-[1280px]">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-0 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-4 lg:gap-8">
           {/* LEFT – form */}
           <div className="md:col-span-7 px-0 sm:px-0 py-8 sm:py-10   ">
             <p className="text-white font-semibold tracking-[.12em] text-[12px] text-sm">

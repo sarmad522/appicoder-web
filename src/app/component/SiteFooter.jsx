@@ -87,7 +87,7 @@ export default function SiteFooter() {
             <ul className="mt-4 space-y-3 text-[12px] lg:text-[14px]">
               {SERVICES.map((s) => (
                 <li key={s} className="flex items-start gap-3">
-                  <span aria-hidden className="mt-[6px] text-white/70">»</span>
+                  <span aria-hidden className= "mt-1 lg:mt-[0px] text-white/70">»</span>
                   <span className="text-white/85 hover:text-white tracking-wide">{s}</span>
                 </li>
               ))}

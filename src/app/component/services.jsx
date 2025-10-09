@@ -64,7 +64,7 @@ export default function ServicesSection() {
           <div className="absolute left-[5%]  bottom-[40%] md:bottom-[30%]   md:left-[2%] xl:left-[5%] z-10 w-[90%]  mx-auto " >
             <div className="grid grid-cols-1 gap-8 md:grid-cols-12 lg:gap-10">
               {/* LEFT: Heading + bullets */}
-              <div className="md:col-span-8  lg:col-span-8 text-white  flex flex-col  md:justify-end items-start overflow-hidden">
+              <div className="md:col-span-9  lg:col-span-8 text-white  flex flex-col  md:justify-end items-start overflow-hidden">
                 <h3 className="text-white text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[64px] font-bold leading-tight tracking-tight">
                   Our Services
                 </h3>
@@ -99,8 +99,8 @@ export default function ServicesSection() {
               </div>
 
               {/* RIGHT: Illustration */}
-              <div className="md:col-span-4  lg:col-span-4 relative mt-4 lg:mt-0">
-<div className="absolute w-full   md:mt-0 inset-0 top-[-220px] md:[inset:unset] md:top-0 md:-right-20 md:ml-auto max-w-[800px] mx-auto w-[70%] md:w-full lg:w-full lg:min-h-[600px]">
+              <div className="md:col-span-3  lg:col-span-4 relative mt-4 lg:mt-0">
+<div className="absolute w-full   md:mt-0 inset-0 top-[-220px] md:[inset:unset] md:top-[-50px]  lg:top-0 md:-right-16   lg:-right-20 md:ml-auto max-w-[800px] mx-auto w-[70%] md:w-full lg:w-full lg:min-h-[600px]">
                   <Image
                     src="/images/compute.png"
                     alt="Services illustration"

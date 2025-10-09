@@ -61,7 +61,7 @@ export default function TechnologyShowcase({ slides = SLIDES }) {
         </h2>
 
         {/* Content row */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-2 lg:gap-6 lg:gap-8 items-stretch">
           {/* LEFT: text slider card */}
           <div className="md:col-span-6 ">
             <div className="relative rounded-xl bg-white shadow-[0_20px_60px_rgba(0,0,0,.25)] overflow-hidden  min-h-[300px] lg:min-h-[400px] xl:min-h-[500px] flex justify-center items-center p-5">

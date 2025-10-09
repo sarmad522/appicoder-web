@@ -43,26 +43,26 @@ export default function CaseStudyVertical({
       </div>
 
       <div className="mx-auto w-[90%] xl:max-w-[1920px] py-10 md:py-14 lg:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-4  lg:gap-8 items-end">
           {/* LEFT: Text Block */}
-          <div className="md:col-span-6 text-white">
+          <div className="md:col-span-7  lg:col-span-6  text-white">
             <div className="flex flex-wrap gap-2 mb-4">
               {tags.map((t) => (
                 <span
                   key={t}
-                  className="rounded-md bg-white text-[#E01923] px-3 py-1  text-[8px] md:text-xs font-semibold tracking-tight ring-1 ring-white/10"
+                  className="rounded-md bg-white text-[#E01923] px-3 py-1  text-[8px] md:text-[11px]  lg:text-xs font-semibold tracking-tight ring-1 ring-white/10"
                 >
                   {t}
                 </span>
               ))}
             </div>
 
-            <h2 className="font-bold text-[22px] md:text-[40px] lg:text-[48px] leading-tight tracking-tight">
+            <h2 className="font-bold text-[22px] md:text-[30px] lg:text-[48px] leading-tight tracking-tight">
               {title.split(" - ")[0]}{" "}
               <span className="block sm:inline">- {title.split(" - ")[1]}</span>
             </h2>
 
-            <p className="mt-4 max-w-[60ch] text-[12px] md:text-[14px] lg:text-[16px] text-white leading-relaxed">
+            <p className="mt-4 max-w-[60ch] text-[12px] md:text-[12px] lg:text-[16px] text-white leading-relaxed">
               {description}
             </p>
 
@@ -74,7 +74,7 @@ export default function CaseStudyVertical({
                   alt={b.alt}
                   width={160}
                   height={48}
-                  className="h-6 md:h-10 w-auto"
+                  className="h-6 md:h-6 lg:h-10 w-auto"
                 />
               ))}
             </div>
@@ -82,7 +82,7 @@ export default function CaseStudyVertical({
             <div className="mt-6">
               <a
                 href={ctaHref}
-                className="inline-flex items-center justify-center rounded-md bg-gradient-to-b from-[#d01a21] to-[#891117] text-[14px] md:text-[16px] p-3 md:px-6 md:py-3 text-white font-semibold shadow-lg ring-1 ring-black/10 hover:translate-y-[1px] transition"
+                className="inline-flex items-center justify-center rounded-md bg-gradient-to-b from-[#d01a21] to-[#891117] text-[14px] md:text-[14px] lg:text-[16px] p-3 md:px-6 md:py-3 text-white font-semibold shadow-lg ring-1 ring-black/10 hover:translate-y-[1px] transition"
               >
                 {ctaText}
               </a>
@@ -90,7 +90,7 @@ export default function CaseStudyVertical({
           </div>
 
           {/* RIGHT: Vertical Swiper */}
-          <div className="md:col-span-6 relative flex justify-center items-center">
+          <div className="md:col-span-5 lg:col-span-6  relative flex justify-center items-center">
             <Swiper
               modules={[Navigation, Autoplay, A11y]}
               direction="vertical"

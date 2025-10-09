@@ -13,11 +13,11 @@ export default function Awards({ title = "Awards and Recognitions", items = AWAR
   return (
     <section className="relative bg-white">
       <div className="mx-auto w-[95%] max-w-[1280px] py-10 md:py-14">
-        <h2 className="text-center text-[#1b1d22] font-bold tracking-tight text-[24px] sm:text-[28px] md:text-[44px]">
+        <h2 className="text-center text-[#1b1d22] font-bold tracking-tight text-[24px] sm:text-[28px] md:text-[32px]  lg:text-[42px] ">
           {title}
         </h2>
 
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8 items-center justify-items-center">
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-6 md:gap-8 items-center justify-items-center">
           {items.map(({ src, alt, featured }, i) => {
             const isBig = featured || i === 1;
 

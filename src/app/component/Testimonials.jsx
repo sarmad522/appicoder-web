@@ -58,7 +58,7 @@ export default function Testimonials({
           <div
             className={`rounded-xl lg:rounded-2xl ${panelColor} shadow-[0_15px_60px_rgba(0,0,0,0.25)] relative`}
           >
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 px-5 sm:px-7 md:px-10 py-8 lg:py-10">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 px-2 sm:px-7 md:px-10 py-8 lg:py-10">
               {/* Left text */}
               <div className="lg:col-span-6 text-white">
                 <div className="mb-6 ">
@@ -68,10 +68,10 @@ export default function Testimonials({
                   </div>
                 </div>
 
-                <p className="uppercase tracking-tight text-white/85 text-sm  xl:text-[18px]">
+                <p className="uppercase tracking-tight text-white/85  text-[12px]  lg:text-sm  xl:text-[18px]">
                   Client Testimonials
                 </p>
-                <h2 className="mt-2 text-3xl sm:text-4xl font-extrabold leading-[1.15]   xl:text-[45px]">
+                <h2 className="mt-2 text-[22px] md:text-[30px]  lg:text-4xl font-extrabold leading-[1.15]   xl:text-[45px]">
                   What our clients<br />are Saying.
                 </h2>
               </div>

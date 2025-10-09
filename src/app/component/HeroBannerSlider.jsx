@@ -51,7 +51,7 @@ export default function HeroBannerSlider({
   backImg = "/images/phone-back.png",
 }) {
   return (
-    <section className="relative isolate overflow-hidden  pb-2 ">
+    <section className="relative isolate overflow-hidden  pb-8  md:pb-2 ">
       {/* Big red rounded layer matching the screenshot shape */}
  <div
     className="absolute inset-0 -z-10 bg-no-repeat bg-cover bg-center
@@ -78,7 +78,7 @@ export default function HeroBannerSlider({
 
 
           {/* RIGHT: slider text */}
-          <div className="order-2 lg:order-2 md:col-span-8 relative">
+          <div className="order-2 lg:order-2 md:col-span-8 relative  ">
             <Swiper
               modules={[Navigation, Autoplay, A11y]}
               autoplay={{ delay: 3800, disableOnInteraction: false }}
